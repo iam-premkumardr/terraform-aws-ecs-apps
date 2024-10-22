@@ -1,0 +1,19 @@
+#Ignore state files
+*.tfstate
+*.tfstate.*
+
+#Ignore log files
+crash.log
+crash.*.log
+
+#Ignore sensitive data
+*.pem
+*.key
+*.pub
+
+#Exclude all *.tfvars files
+*.tfvars
+*.tfvars.json
+
+#Exclude all *.terraform files
+.terraform
